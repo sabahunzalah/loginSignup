@@ -1,0 +1,28 @@
+ *{
+    font-family: sans-serif;
+ }
+ .parent{
+    /* border: 2px solid green; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+   align-items: start;
+   justify-content: center;
+   padding-left: 50px;
+
+}
+.checkbox{
+    display: flex;
+    /* border: 2px solid red; */
+    gap: 10px;
+    font-size: 14px;
+}
+.btnDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 20px;
+}
